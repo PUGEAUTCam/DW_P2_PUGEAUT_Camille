@@ -279,6 +279,7 @@ article h2 {
 	box-shadow: 0px 3px 15px rgb(224, 221, 221);
 	overflow: hidden;
 	margin-top: 3%;
+         transition: transform 200ms;
 }
 
 .img-card-hebergement {
@@ -293,7 +294,7 @@ article h2 {
 }
 
 .card-body {
-	padding: 4%;
+	padding: 3%;
 }
 
 .card-body p {
@@ -302,7 +303,7 @@ article h2 {
 }
 
 .stars-1 {
-	margin-top: 1%;
+	margin-top: 0%;
 }
 
 .fa-star {
@@ -318,6 +319,7 @@ strong:hover {
 .card-activites:hover,
 .card-populaires:hover {
 	box-shadow: 2px 2px 5px 0px rgba(181, 181, 181, 1);
+         transform: scale(1.02);
 }
 
 /* Aside : Les plus populaires*/
@@ -364,6 +366,7 @@ strong:hover {
 	overflow: hidden;
 	margin: 0px auto;
 	margin-bottom: 6%;
+         transition: transform 200ms;
 }
 
 .img-card-populaires {
@@ -388,7 +391,7 @@ strong:hover {
 }
 
 .stars-2 {
-	margin-top: 21%;
+	margin-top: 18%;
 }
 
 /* Section : activites a Marseille */
@@ -416,6 +419,7 @@ strong:hover {
 	overflow: hidden;
 	border-radius: 20px;
 	box-shadow: 0px 3px 15px rgb(224, 221, 221);
+         transition: transform 200ms;
 }
 
 .card-body-activites {
@@ -494,6 +498,10 @@ footer ul {
 	margin-top: 12px;
 }
 
+.footer a:hover{
+         color: #0065FC;
+}
+
 
 /* Responsive */
 
@@ -558,15 +566,12 @@ footer ul {
 	}
 }
 
-
-
 @media all and (max-width: 1126px) {
 	.button-filter {
 		margin-top: 13px;
 		/* margin-right: 12px; */
 	}
 }
-
 
 @media all and (max-width: 992px) {
 	main {
@@ -630,9 +635,13 @@ footer ul {
 
 	.button1 {
 		color: #0065FC;
-		border-radius: 10px;
+		border-radius: 0px 10px 10px 0px;
 		width: 50px;
 	}
+
+         .button1:hover{
+                  color: #0065FC;
+         }
 
 	.container-form {
 		padding: 28px;
