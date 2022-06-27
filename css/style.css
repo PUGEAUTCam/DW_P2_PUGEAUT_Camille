@@ -155,7 +155,7 @@ nav li:hover {
 	font-size: 18px;
 	background-color: #0065FC;
 	width: 145px;
-	height: 48px;
+	height: 46px;
 	border-radius: 0px 14px 14px 0px;
 	cursor: pointer;
 	box-shadow: 0 1px #0065FC;
@@ -216,6 +216,12 @@ nav li:hover {
 .button-filter:hover,
 .button-filter:hover .filter-icon {
 	color: rgb(11, 154, 237);
+}
+
+.button-filter:active,
+.button-filter:active .filter-icon {
+	color: rgb(11, 154, 237);
+         transform: scale(1.02);
 }
 
 
@@ -321,6 +327,14 @@ strong:hover {
 	box-shadow: 2px 2px 5px 0px rgba(181, 181, 181, 1);
          transform: scale(1.02);
 }
+
+.card-hebergement:active,
+.card-activites:active,
+.card-populaires:active {
+	box-shadow: 2px 2px 5px 0px rgba(181, 181, 181, 1);
+         transform: scale(1.02);
+}
+
 
 /* Aside : Les plus populaires*/
 
@@ -502,6 +516,10 @@ footer ul {
          color: #0065FC;
 }
 
+.footer a:active{
+         color: #0065FC;
+}
+
 
 /* Responsive */
 
@@ -632,6 +650,14 @@ footer ul {
 	nav {
 		margin-top: 15px;
 	}
+
+         .border-blue{
+                  border-bottom: 2px solid #0065FC;
+         }
+
+         .heb-blue{
+                  color: #0065FC;
+         }
 
 	.button1 {
 		color: #0065FC;
